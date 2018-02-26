@@ -1,0 +1,48 @@
+body {
+  width: -webkit-fill-available;
+  height: auto;
+}
+
+#main {
+  padding: 15px 15px 15px 15px
+}
+
+#header {
+  padding-top:15px;
+}
+
+.delete-button {
+  min-width: 0px;
+  border: 0px !important;
+  box-shadow: none
+}
+
+.countdown-days-remaining {
+  font-size: 50pt;
+  margin-right: 15px;
+  color: white
+}
+
+.completed-countdown-days-remaining {
+  font-size: 15pt;
+  margin-right: 20px;
+  color: white
+}
+
+.countdown-content {
+  display: flex;
+  align-items: center;
+  margin: 10px 50px 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+.delete-icon {
+  margin-right: 0;
+  margin-left: auto;
+  color: rgba(255, 220, 220, 0.5);
+}
+
+.delete-icon > a {
+  text-decoration: none !important;
+  border-bottom: 0px
+}
